@@ -13,7 +13,6 @@
 		2235B5D314B465970094B7CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2235B5D214B465970094B7CC /* CoreGraphics.framework */; };
 		2235B5D914B465970094B7CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2235B5D714B465970094B7CC /* InfoPlist.strings */; };
 		2235B5DB14B465970094B7CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2235B5DA14B465970094B7CC /* main.m */; };
-		2235B5DF14B465970094B7CC /* SVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2235B5DE14B465970094B7CC /* SVAppDelegate.m */; };
 		2235B5EE14B465F70094B7CC /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2235B5EC14B465F70094B7CC /* LeftTableViewController.m */; };
 		2235B5EF14B465F70094B7CC /* LeftTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2235B5ED14B465F70094B7CC /* LeftTableViewController.xib */; };
 		2235B5F314B466090094B7CC /* RightDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2235B5F114B466090094B7CC /* RightDetailViewController.m */; };
@@ -31,11 +30,9 @@
 		2235B5DA14B465970094B7CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2235B5DC14B465970094B7CC /* SplitViewApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplitViewApp-Prefix.pch"; sourceTree = "<group>"; };
 		2235B5DD14B465970094B7CC /* SVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVAppDelegate.h; sourceTree = "<group>"; };
-		2235B5DE14B465970094B7CC /* SVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVAppDelegate.m; sourceTree = "<group>"; };
 		2235B5EB14B465F70094B7CC /* LeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
 		2235B5EC14B465F70094B7CC /* LeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
 		2235B5ED14B465F70094B7CC /* LeftTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftTableViewController.xib; sourceTree = "<group>"; };
-		2235B5F014B466090094B7CC /* RightDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightDetailViewController.h; sourceTree = "<group>"; };
 		2235B5F114B466090094B7CC /* RightDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightDetailViewController.m; sourceTree = "<group>"; };
 		2235B5F214B466090094B7CC /* RightDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightDetailViewController.xib; sourceTree = "<group>"; };
 		2235B62E14B48E5C0094B7CC /* UpdateSplitDetailViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateSplitDetailViewProtocol.h; sourceTree = "<group>"; };
@@ -110,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				2235B5DD14B465970094B7CC /* SVAppDelegate.h */,
-				2235B5DE14B465970094B7CC /* SVAppDelegate.m */,
 			);
 			name = "App delegate";
 			sourceTree = "<group>";
@@ -128,7 +124,6 @@
 		2235B63214B4AA360094B7CC /* Right view */ = {
 			isa = PBXGroup;
 			children = (
-				2235B5F014B466090094B7CC /* RightDetailViewController.h */,
 				2235B5F114B466090094B7CC /* RightDetailViewController.m */,
 				2235B5F214B466090094B7CC /* RightDetailViewController.xib */,
 			);
@@ -209,7 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2235B5DB14B465970094B7CC /* main.m in Sources */,
-				2235B5DF14B465970094B7CC /* SVAppDelegate.m in Sources */,
 				2235B5EE14B465F70094B7CC /* LeftTableViewController.m in Sources */,
 				2235B5F314B466090094B7CC /* RightDetailViewController.m in Sources */,
 			);
